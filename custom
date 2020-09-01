@@ -17,3 +17,4 @@ USER-AGENT,*FlashScore*,Proxy
 USER-AGENT,*foodgame*,DIRECT
 USER-AGENT,*iOS-188Asia*,DIRECT
 USER-AGENT,*部落冲突*,Proxy
+USER-AGENT,*iOS-188Asia*,Proxy
