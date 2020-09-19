@@ -1,0 +1,15 @@
+#!name=Cookie - All in one By nzw9314
+#!desc=https://raw.githubusercontent.com/nzw9314/Surge/master/Module/Cookie_All_in_one.sgmodule
+#!system=ios
+
+
+[Script]
+
+# NobyDa
+# > 京东
+# 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
+京东签到Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, daojia.jd.com, ms.jr.jd.com, draw.jdfcloud.com
