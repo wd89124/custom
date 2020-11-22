@@ -9,4 +9,4 @@
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/hot/search\/video\/list\/ https://aweme.snssdk.com/aweme/v1/hot/search/video/list/ header
 
 [MITM]
-hostname = %APPEND% *.amemv.com, aweme*.snssdk.com
+hostname = *.amemv.com, aweme*.snssdk.com
